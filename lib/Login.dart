@@ -5,7 +5,9 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('whatsapp'),
+      ),
     );
   }
 }
