@@ -4,10 +4,6 @@ class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
   @override
   Widget build(context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Whatsapp'),
-      ),
-    );
+    return Scaffold();
   }
 }
