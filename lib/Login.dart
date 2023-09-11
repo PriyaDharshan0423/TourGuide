@@ -7,12 +7,6 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Whatsapp'),
-        actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.camera_alt_outlined)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.search)),
-               IconButton(onPressed: () {}, icon: Icon(Icons.)),
-          
-        ],
       ),
     );
   }
